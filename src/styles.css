@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight:600;
+
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background:#0074D9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App .container {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  padding: 0.7rem;
+}
+
+.App .container .random-number p span {
+  font-weight: 800;
+  color:##FF851B;
+}
+
+.App .container .number-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100%;
+}
+
+.App .container .number-container div {
+  width: 100%;
+  max-width: 42%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+  .App .container .number-container div p{
+    margin: 0.5rem 0;
+  }
+  
+
+.App .container .number-container input {
+  padding: 6px;
+  outline: none;
+  border: none;
+  background: #0074D9;
+  text-align: center;
+  width: 100%;
+  color: white
+}
+
+button {
+  outline: none;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  font-weight: 700;
+  background: #0074D9;
+  color: white;
+  width: 50%;
+}
